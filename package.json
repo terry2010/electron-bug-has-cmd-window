@@ -1,0 +1,20 @@
+{
+  "name": "test-exec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "electron .",
+    "pack": "electron-packager . trybug --out ./dist --platform=win32 --arch=ia32 --prune --asar --overwrite"
+  },
+  "devDependencies": {
+    "asar": "^3.1.0",
+    "electron": "16.0.5",
+    "electron-builder": "^22.14.5",
+    "electron-installer-dmg": "^3.0.0",
+    "electron-packager": "^15.4.0",
+    "electron-rebuild": "^3.2.5",
+    "node-gyp": "^8.4.1",
+    "node-pre-gyp": "^0.17.0"
+  }
+}
